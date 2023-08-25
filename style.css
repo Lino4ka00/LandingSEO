@@ -1,0 +1,614 @@
+body {
+    margin: 0;
+
+}
+
+h1, h6 {
+    margin: 0;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+b{
+    font-weight: 700;
+}
+/* Header */
+
+header {
+    height: 100px;
+}
+
+.container {
+    max-width: 1660px;
+    margin: 0 auto;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_wrapper_but {
+    align-items: center;
+    display: flex;
+}
+
+.express {
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    background-color: #2A5ED1;
+    border: none;
+    width: 138px;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 29px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.free {
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav_phone_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.tel {
+    margin-left: 12px;
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* --------------Home page------------- */
+
+.home_wrapper {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__home__text {
+    display: inline-block;
+    margin-top: 75px;
+}
+
+.SEO {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    text-align: left;
+}
+
+
+
+.blue {
+    color: #2A5ED1;
+}
+
+.joke {
+    padding-top: 15px;
+    position: relative;
+    width: 300px;
+    height: 65px;
+    transform: rotate(-2.057deg);
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #E856F1;
+    left: 394px;
+    bottom: 40px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.list {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style-type: disc;
+}
+
+.ul_name {
+    margin-top: 25px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.get {
+    margin-top: 72px;
+    background-color: #2A5ED1;
+    width: 400px;
+    height: 96px;
+    border-radius: 20px;
+    box-shadow: -2px 3px 11px 0px #2A5ED1;
+    margin-bottom: 157px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* --------Problem------- */
+
+.problem {
+    max-width: 1920px;
+    background-color: #E1F3FF;
+    background-image: url("img/usually/background.svg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.problem:has(h6) {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 100px;
+}
+
+
+
+.question {
+    padding-top: 100px;
+}
+
+.underline {
+    position: relative;
+    left: 63px;
+    bottom: 15px;
+}
+
+/* ------Как это работает?----------- */
+
+.how_works {
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-bottom: 140px;
+}
+
+.container_works {
+    max-width: 1790px;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
+
+
+.caption_works {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.underline_works {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 90px;
+    margin-top: 5px;
+}
+
+.wrapper_text_img_works {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_works {
+    margin-top: 50px;
+    max-width: 900px;
+    margin-left: 90px;
+}
+
+
+.item {
+    margin-bottom: 30px;
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.descr {
+    margin-bottom: 50px;
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* ------------Что ты получишь------------------- */
+
+.receive {
+    margin-bottom: 159px;
+}
+
+.underline_receive {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 65px;
+    top: 5px;
+    margin-bottom: 33px;
+}
+
+.receive_wrapper {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_item h5 {
+    margin-top: 17px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card_underline_rotate {
+    transform: rotate(-179.275deg);
+}
+
+
+
+
+/* -----------------Пример нашей работы---------------------------- */
+
+.example_wrapper {
+    max-width: 1540px;
+}
+
+
+.text_example {
+    position: relative;
+    left: 280px;
+    top: 30px;
+    transform: rotate(-2.057deg);
+    display: inline-block;
+    width: 295.747px;
+    height: 69.381px;
+    background-color: #E856F1;
+    border-radius: 15px;
+    
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text_example p {
+    display: inline;
+    vertical-align: middle;
+}
+
+.text_example h1 {
+    margin-bottom: 50px;
+}
+
+.example_wrapper ol {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.example_wrapper li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+
+
+.stapper {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 170px;
+}
+
+.stapper h1 {
+    font-size: 30px;
+    margin-top: 11px;
+    display: inline-block;
+}
+
+.stapper h5 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 645px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.st {
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid;
+    background-color: #FFF;
+    border-color: #2A5ED1;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.st_none {
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: #2A5ED1;
+}
+
+.st p {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+
+
+
+
+/* --------------Ваш email--------------------- */
+
+.email {
+    max-width: 1920px;
+    background-color: #E1F3FF;
+    background-image: url(img/usually/background_email.svg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 138px;
+}
+
+.email p {
+    padding: 65px 0;
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 683px;
+}
+
+.email_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input_email {
+    display: inline-block;
+}
+
+.email input {
+    display: block;
+    padding-left: 56px;
+    width: 347px;
+    height: 80px;
+    background-color: inherit;
+    border-radius: 20px;
+    border: 1px dashed #000;
+
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+span {
+    color: #2A5ED1;
+}
+
+.content_but {
+    width: 403px;
+    height: 80px;
+    border-radius: 20px;
+    background: #2A5ED1;
+    box-shadow: -2px 3px 11px 0px #2A5ED1;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* -------------Что дальше?---------------- */
+
+.whats_next {
+    margin-bottom: 147px;
+}
+
+.underline_next {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    position: relative;
+    right: 170px;
+}
+
+.next_text {
+    position: relative;
+    left: 975px;
+    top: 37px;
+    width: 399.309px;
+    height: 69.381px;
+    transform: rotate(-3deg);
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #E856F1;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 69px;
+}
+
+
+.wnext_cards_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.card_item1 {
+    border-radius: 20px;
+}
+
+.card_item2 {
+    width: 901px;
+    height: 340px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: #E0F3FF;
+}
+
+.card_item2 p {
+    display: inline-block;
+    text-align: center;
+    width: 818px;
+    margin-top: 84px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+/* --------------QA----------------------- */
+
+.container_qa {
+    width: 1260px;
+    margin: 0 auto;
+    margin-bottom: 140px;
+}
+
+.sectionqa h1 {
+    margin-bottom: 50px;
+}
+
+.accordion-item button {
+    border: none;
+}
+
+/* footer */
+
+
+.foot {
+    border-top: #2A5ED1 1px solid;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 1546px;
+    display: flex;
+    justify-content: space-between;
+}
